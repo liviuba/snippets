@@ -26,16 +26,16 @@ int main(int argc, char* argv[]){
 	int opt; // not char, to handle -1
 
 	
-	if(argc > 3) BadStuffHappened("Usage A: like_tee [-p] <filename>\n");
+	if(argc > 3) BadStuffHappened("Usage : like_tee [-p] <filename>\n");
 	opt = getopt(argc, argv, "p");
-	if( opt != 'p' && opt != -1) BadStuffHappened("Usage B: like_tee [-p] <filename>\n");
+	if( opt != 'p' && opt != -1) BadStuffHappened("Usage : like_tee [-p] <filename>\n");
 
 	if(opt == 'p')
 		out_fd = open( argv[2], O_RDWR | O_CREAT | O_APPEND,
-								S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH | S_IWOTH );	//(rw-)
+								S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH | S_IWOTH );	//rw-rw-rw-
 	else
 			out_fd = open( argv[1], O_RDWR | O_CREAT,
-								S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH | S_IWOTH );	//(rw-)
+								S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH | S_IWOTH );	//rw-rw-rw-
 
 
 	if(out_fd == -1)
