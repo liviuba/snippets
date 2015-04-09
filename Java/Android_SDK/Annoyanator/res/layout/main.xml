@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+
+		<EditText
+			android:id="@+id/message"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:hint="@string/message_hint"
+			android:inputType="text" />
+		<EditText
+			android:id="@+id/phone_num"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/phone_number_hint"
+			android:inputType="number" />
+		<EditText
+			android:id="@+id/how_many"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:hint="@string/how_many_hint"
+			android:inputType="number" />
+		<EditText
+			android:id="@+id/how_often"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:hint="@string/how_often_hint"
+			android:inputType="number" />
+		<Button
+			android:id="@+id/start_spam"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/start_spam_button" />
+
+
+
+
+
+</LinearLayout>
+
