@@ -1,0 +1,6 @@
+# view AndroidManifest.xml #generated:9
+-keep class liviu.examples.spamvladucu.SpamVladucu { <init>(...); }
+
+# view AndroidManifest.xml #generated:16
+-keep class liviu.examples.spamvladucu.SpamVladucuService { <init>(...); }
+
