@@ -14,7 +14,7 @@
 			android:id="@+id/phone_num"
 			android:layout_width="fill_parent"
 			android:layout_height="wrap_content"
-			android:text="@string/phone_number_hint"
+			android:hint="@string/phone_number_hint"
 			android:inputType="number" />
 		<EditText
 			android:id="@+id/how_many"

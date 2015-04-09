@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="app_name">SpamVladucu</string>
-	<string name="message_hint">Spam Vladucu here! </string>
+	<string name="app_name">Annoyanator</string>
+	<string name="message_hint">Message goes here</string>
 	<string name="phone_number_hint">phone # goes here</string>
 	<string name="start_spam_button">SPAMSPAMSPAMSPAM!</string>
 	<string name="how_many_hint">How many messages to send?</string>
-	<string name="how_often_hint">How often to spam the poor fella? (minutes)</string>
+	<string name="how_often_hint">How often? (minutes)</string>
 </resources>
